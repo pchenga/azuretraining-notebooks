@@ -1,5 +1,7 @@
 // Databricks notebook source
-spark.sql("set spark.databricks.delta.schema.autoMerge.enabled = true
+spark.sql("set spark.databricks.delta.schema.autoMerge.enabled = true") 
+
+println("new changes")
 
 
 // COMMAND ----------
